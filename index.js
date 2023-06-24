@@ -1,4 +1,4 @@
-import products from './products.json' assert { type: "json" };
+import products from '/products.json' assert { type: "json" };
 const mainContainer = document.querySelector(".main-container")
 
 function updatemenu() {

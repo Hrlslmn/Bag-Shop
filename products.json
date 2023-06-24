@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Bag 1",
+        "id": "bag_1",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "12.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    },
+    {
+        "title": "Bag 2",
+        "id": "bag_2",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "12.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    },
+    {
+        "title": "Bag 3",
+        "id": "bag_3",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "12.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    },
+    {
+        "title": "Bag 4",
+        "id": "bag_4",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "15.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    },
+    {
+        "title": "Bag 5",
+        "id": "bag_5",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "15.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    },
+    {
+        "title": "Bag 6",
+        "id": "bag_6",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "15.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    },
+    {
+        "title": "Bag 5",
+        "id": "bag_5",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "15.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    },
+    {
+        "title": "Bag 6",
+        "id": "bag_6",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "15.00",
+        "image":"assets/images/drawstring_bag.jpg",
+        "white":"white",
+        "black":"black"
+    }
+]

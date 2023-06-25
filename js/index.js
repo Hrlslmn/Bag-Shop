@@ -1,16 +1,8 @@
-import products from '/products.json' assert { type: "json" };
 const mainContainer = document.querySelector(".main-container")
 
-function updatemenu() {
-    if (document.getElementById('responsive-menu').checked == true) {
-      document.getElementById('menu').style.borderBottomRightRadius = '0';
-      document.getElementById('menu').style.borderBottomLeftRadius = '0';
-    }else{
-      document.getElementById('menu').style.borderRadius = '10px';
-    }
-  }
-
-products.forEach((prod)=>{
+fetch('./products.json')
+  .then((response) => response.json())
+  .then((json) => json.forEach((prod)=>{
     const image = document.createElement("img")
     const container = document.createElement("div")
     const name = document.createElement("h2")
@@ -45,5 +37,6 @@ products.forEach((prod)=>{
     container.appendChild(price)
     container.appendChild(buyBtn)
     mainContainer.appendChild(container)
-})
+  })
+  )
 

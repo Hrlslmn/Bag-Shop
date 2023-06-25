@@ -187,6 +187,11 @@ header img{
 	background: #F2F2F2;
 	color: #444444;
 }
+.snipcart-checkout.bottom{
+	align-self: center;
+	margin: 20px;
+	width: 150px;;
+}
 @media screen and (max-width:1200px) {
     .main-container{
         grid-template-columns: 1fr 1fr;
@@ -231,6 +236,9 @@ header img{
     .main-container{
         grid-template-columns: 1fr;
     }
+	.snipcart-checkout.bottom{
+		display: none;
+	}
 	.prod-container{
 		max-width: 380px;
 		margin: 5px

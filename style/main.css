@@ -237,7 +237,7 @@ header img{
         grid-template-columns: 1fr;
     }
 	.snipcart-checkout.bottom{
-		display: none;
+		width: 100px;
 	}
 	.prod-container{
 		max-width: 380px;

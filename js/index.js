@@ -18,12 +18,6 @@ products.forEach((prod)=>{
     const price = document.createElement("p")
     const buyBtn = document.createElement("button")
 
-    const handleClick = () =>{
-  
-    }
-
-    buyBtn.addEventListener('click',handleClick)
-
 
     buyBtn.className = "snipcart-add-item"
     image.className = "prod-image"

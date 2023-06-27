@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(245, 237, 167);
+    background-color: antiquewhite;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,6 +46,8 @@ header img{
 	width: 100vw;
 	height: auto;
 	margin-bottom: 10px;
+	border-bottom: 2px solid black;
+	box-shadow: 2px 2px 2px rgb(156, 156, 156);
 }
 .main-container{
     display: grid;
@@ -105,8 +107,8 @@ header img{
 	margin-top: 15px;
 }
 #menu {
-	background: #A31F15;
-	color: #FFF;
+	background: #fdfdfd00;
+	color: #000000;
 	height: 70px;
 	padding-left: 18px;
 	border-bottom: 2px solid #000000;
@@ -197,6 +199,47 @@ header img{
 	background: #F2F2F2;
 	color: #444444;
 }
+.scroll {
+    position: relative;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .m-scroll {
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    animation: scrollText 10s infinite linear;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+  }
+  
+  .scrollitem {
+    display: inline-block;
+    margin: 50px 200px 50px 200px;
+    padding: 0;
+    color: white;
+  }
+
+  span img{
+    width: 400px;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 @media screen and (max-width:1200px) {
     .main-container{
         grid-template-columns: 1fr 1fr;
@@ -237,7 +280,7 @@ header img{
 }
 @media screen and (max-width:700px) {
     .main-container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 	.prod-container{
 		max-width: 380px;

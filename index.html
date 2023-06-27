@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav id='menu'>
+    <nav id='menu' style="border-radius: none;">
         <input type='checkbox' id='responsive-menu' onclick=updatemenu()><label></label>
         <ul>
             <li><a href='http://'>Home</a></li>
@@ -30,12 +30,13 @@
         <p>Paracord & Drawstring Bag Store</p>
     </header>
     <main>
-        <div class="main-container">
-
-        </div>
-        <div style="display: flex; flex-direction: column; justify-content: center;">
+        <div class="main-container"></div>
+        <div style="display: flex; justify-content: center;">
             <button class="snipcart-checkout bottom">Checkout</button>
         </div>
+
+           
+
     </main>
     <footer>
 
@@ -46,7 +47,7 @@
             document.getElementById('menu').style.borderBottomRightRadius = '0';
             document.getElementById('menu').style.borderBottomLeftRadius = '0';
             }else{
-            document.getElementById('menu').style.borderRadius = '10px';
+            document.getElementById('menu').style.borderRadius = '0px';
             }
         }
     </script>

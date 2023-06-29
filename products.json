@@ -5,7 +5,7 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag/bag1"
+        "url": "/"
     },
     {
         "title": "Bag 2",
@@ -13,7 +13,7 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com"
+        "url": "/"
 
     },
     {
@@ -22,7 +22,7 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com"
+        "url": "/"
 
     },
     {
@@ -31,7 +31,7 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com"
+        "url": "/"
     },
     {
         "title": "Bag 5",
@@ -39,7 +39,7 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag1"
+        "url": "/"
 
     },
     {
@@ -48,7 +48,7 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com"
+        "url": "/"
 
     },
     {
@@ -57,7 +57,7 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com"
+        "url": "/"
     },
     {
         "title": "Bag 6",
@@ -65,6 +65,6 @@
         "description": "Show off your Snipcart support with a logo sticker!",
         "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com"
+        "url": "/"
     }
 ]

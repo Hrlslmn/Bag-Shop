@@ -3,69 +3,69 @@
         "title": "Bag 1",
         "id": "bag_1",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 12.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_1"
+        "url": "/"
     },
     {
         "title": "Bag 2",
         "id": "bag_2",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 12.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_2"
+        "url": "/"
 
     },
     {
         "title": "Bag 3",
         "id": "bag_3",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 12.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_3"
+        "url": "/"
 
     },
     {
         "title": "Bag 4",
         "id": "bag_4",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 15.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_4"
+        "url": "/"
 
     },
     {
         "title": "Bag 5",
         "id": "bag_5",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 15.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_5"
+        "url": "/"
 
     },
     {
         "title": "Bag 6",
         "id": "bag_6",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 15.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_6"
+        "url": "/"
 
     },
     {
         "title": "Bag 5",
         "id": "bag_5",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 15.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_7"
+        "url": "/"
     },
     {
         "title": "Bag 6",
         "id": "bag_6",
         "description": "Show off your Snipcart support with a logo sticker!",
-        "price": 15.00,
+        "price": "5.00",
         "image":"assets/images/Paracord.png",
-        "url": "https://main.d16mozy5htbkby.amplifyapp.com/bag_8"
+        "url": "/"
     }
 ]

@@ -22,8 +22,6 @@ fetch('./products.json')
     buyBtn.setAttribute("data-item-price", prod.price)
     buyBtn.setAttribute("data-item-description", prod.description)
     buyBtn.setAttribute("data-item-id", prod.id)
-    buyBtn.setAttribute("data-item-custom1-name","Bag-color")
-    buyBtn.setAttribute("data-item-custom1-options",`${prod.white}|${prod.black}[+10.00]`)
     buyBtn.innerHTML = "Add to cart"
 
     image.src = prod.image

@@ -53,20 +53,6 @@ header img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr
 }
-.prod-container{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    max-width: 450px;
-	margin: 10px
-}
-.prod-image{
-    width: 100%;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 4px;
-    box-shadow: -2px 1px 4px rgb(46, 46, 46);
-}
 .prod-title{
     text-align: center;
 }

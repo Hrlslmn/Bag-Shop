@@ -19,7 +19,7 @@
     overflow: hidden;
     height: 100%;
     white-space: nowrap;
-    animation: scrollText 8s infinite linear;
+    animation: scrollText 9s infinite linear;
     margin: 0;
     font-size: 0;
     display: flex;

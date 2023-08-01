@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(22, 40, 63);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body{
 button{
     background-color: black;
     padding: 5px 8px 5px 8px;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
 	font-size: 16px;
 	cursor: pointer;
@@ -22,32 +22,11 @@ button{
 header{
 	position: relative;
 }
-header h1{
-	position: absolute;
-	top: 10%;
-	left: 2%;
-	color: #d1b476;
-	font-size: 60px;
-	-webkit-text-stroke-color: #000000;
-	-webkit-text-stroke-width: 1px;
-
-}
-header p{
-	position: absolute;
-	top: 29%;
-	left: 2%;
-	color: #ffffff;
-	font-size: 40px;
-	-webkit-text-stroke-color: #000000;
-	-webkit-text-stroke-width: 1px;
-
-}
 header img{
 	width: 100vw;
 	height: auto;
 	margin-bottom: 10px;
-	border-bottom: 2px solid black;
-	box-shadow: 2px 2px 2px rgb(156, 156, 156);
+	box-shadow: rgb(228, 196, 54) 0px 5px 10px ;
 }
 .main-container{
     display: grid;
@@ -87,12 +66,13 @@ header img{
 .snipcart-checkout{
 	align-self: start;
 	margin: 7px 20px 0 10px;
-	background-color: #d1b476;
-	font-size: 20px;
-	color: #000000;
-	font-weight: 600;
+	background-color: rgb(38, 48, 75);
+	font-size: 19px;
+	color: #ffffff;
+	font-weight: 400;
 	border-radius: 5px;
 	cursor: pointer;
+	border: 2px solid rgb(228, 196, 54);
 }
 .snipcart-checkout:hover{
 	background-color: #A31F15;
@@ -104,11 +84,11 @@ header img{
 	margin-top: 15px;
 }
 #menu {
-	background: #fdfdfd00;
-	color: #000000;
+	background: rgb(22, 40, 63);
+	color: rgb(228, 196, 54);
 	height: 70px;
 	padding-left: 18px;
-	border-bottom: 2px solid #000000;
+	border-bottom: 2px solid rgb(228, 196, 54);
 	display: flex;
 	align-items: center;
 	border-radius: none !important;
@@ -137,7 +117,7 @@ header img{
 	line-height: 49px;
 	padding: 0 14px;
 	text-decoration: none;
-	color: #000000;
+	color: rgb(228, 196, 54);
 	font-size: 18px;
 }
 #menu a.dropdown-arrow:after {
@@ -145,8 +125,8 @@ header img{
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #000000;
-	background: #f7dea8;
+	color: rgb(22, 40, 63);
+	background: rgb(228, 196, 54);
 }
 #menu input {
 	display: none;
@@ -175,7 +155,7 @@ header img{
 	height: auto;
 	overflow: hidden;
 	width: 170px;
-	background: #d1b476;
+	background: rgb(228, 196, 54);
 	position: absolute;
 	z-index: 99;
 	display: none;
@@ -186,7 +166,7 @@ header img{
 	width: 100%;
 }
 #menu ul.sub-menus a {
-	color: #000000;
+	color: rgb(22, 40, 63);
 	font-size: 16px;
 }
 #menu li:hover ul.sub-menus {
@@ -196,38 +176,17 @@ header img{
 	background: #F2F2F2;
 	color: #444444;
 }
-.scroll {
-    position: relative;
-    width: 40vw;
-    background-color: rgba(0, 0, 0, 0);
-    overflow: hidden;
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .m-scroll {
-    overflow: hidden;
-    height: 100%;
-    white-space: nowrap;
-    animation: scrollText 10s infinite linear;
-    margin: 0;
-    font-size: 0;
-    display: flex;
-    justify-content: space-between;
-    width: fit-content;
-  }
-  
-  .scrollitem {
-    display: inline-block;
-    margin: 50px 200px 50px 200px;
-    padding: 0;
-    color: white;
-  }
+.aboutContainer{
+	text-align: center;
+	color: rgb(228, 196, 54);
+	padding: 20px;
+}
 
-  span img{
-    width: 400px;
-  }
+  
+  
+
+
+
   
   @keyframes scrollText {
     from {
